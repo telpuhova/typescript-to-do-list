@@ -1,8 +1,7 @@
 class Task {
-  done: boolean;
+  done: boolean = false;
 
   constructor(public description: string, public priority: string) {
-    this.done = false;
   }
 }
 
