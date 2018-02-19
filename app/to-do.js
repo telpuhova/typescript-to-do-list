@@ -1,8 +1,8 @@
 var Task = /** @class */ (function () {
-    function Task(descriptionParameter, priorityParameter) {
+    function Task(description, priority) {
+        this.description = description;
+        this.priority = priority;
         this.done = false;
-        this.description = descriptionParameter;
-        this.priority = priorityParameter;
     }
     return Task;
 }());
